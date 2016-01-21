@@ -19,8 +19,55 @@
 </head>
 <body class="tundra">
 <h1>Application One</h1>
-<p>Enter a date below:</p>
-<input dojoType="dijit.form.DateTextBox"/>
+<table>
+
+	<tr>
+	<th align="right">First Name:</th>
+	<td align="left"><input type="text" name="fname" value="First Name"/></td>
+	</tr>
+	
+	<tr>
+	<th align="right">Last Name:</th>
+	<td align="left"><input type="text" name="lname" value="Last Name"/></td>
+	</tr>
+	
+	<tr>
+	<th align="right">Address:</th>
+	<td align="left"><input type="text" name="address"/></td>
+	</tr>
+	
+	<tr>
+	<th align="right">Email:</th>
+	<td align="left"><input type="text" name="email" value="abc@example.com"/></td>
+	<td></td><td></td>
+	<th align="right">Mob:</th>
+	<td align="left"><input type="text" value=""/></td>
+	</tr>
+	
+	<tr>
+	<th align="right">Date of birth:</th>
+	<td align="right"><input dojoType="dijit.form.DateTextBox" name="dob"/></td>
+	</tr>
+	
+	<tr>
+	<th align="right">Gender:</th>
+	<td align="left"><input type="radio" name="gender" value="Male"/>Male</td>
+	</tr>
+	
+	<tr>
+		<td></td>
+		<td align="left"><input type="radio" name="gender" value="Female">Female</td>
+	</tr>
+	
+	<tr>
+		<td><input type="date"></td>
+	</tr>
+	
+	<tr>
+		<td></td>
+		<td><input type="submit" value="register"></td>
+	</tr>
+</table>
 
 </body>
 </html>
